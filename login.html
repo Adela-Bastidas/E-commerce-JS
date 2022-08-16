@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek-Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/login/encabezado.css">
+    <link rel="stylesheet" href="./assets/css/login/inicioSesion.css">
+    <link rel="stylesheet" href="./assets/css/contacto.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <img src="./assets/img/sports_logo.png" class="logo" alt="logo-sport">
+            <a href="./index.html">
+                <div class="logo__AluraGeek">
+                    <img src="./assets/img/Alura.png" class="alura" alt="alura">
+                    <img src="./assets/img/Geek.png" class="geek" alt="geek">
+                </div>
+            </a>
+            <img src="./assets/img/lupa.png" class="lupa" alt="lupa">
+
+            <input type="text" id="busqueda_login" placeholder="¿ O qué desea encontrar?">
+        </div>
+    </header>
+
+    <main>
+        <section class="form__login">
+            <div class="inicio__sesion">
+                <label  class="texto" for="">Iniciar Sesión</label>
+                <form class="Form_log" action="" data-form>
+                    <input class="email__form" id="email" type="email" name="email" placeholder="Escriba su correo electrónico" required data-email>
+                    <input class="contrasenia__form" id="psw" type="password" name="contraseña" placeholder="Escriba su contraseña" required data-pssw>
+                    <button type="submit" class="ingresar" >Entrar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="contacto__titulo__logo">
+                <img src="./assets/img/sports_logo.png" class="logo__form" alt="logo-sport">
+                <img src="./assets/img/AluraGeek.png" class="alura2" alt="alura">
+                <img src="./assets/img/AluGeek.png" class="geek2" alt="geek">
+            </div>
+
+            <div class="parrafos">
+                <p class="parrafo__form">Quienes somos</p>
+                <p class="parrafo__form">Política de privacidad</p>
+                <p class="parrafo__form">Programa de fidelidad</p>
+                <p class="parrafo__form">Nuestras tiendas</p>
+                <p class="parrafo__form">Quiero ser franquiciado</p>
+                <p class="parrafo__form">Anúncie aquí</p>
+            </div>
+
+            <div class="formulario">
+                <label  class="texto__form" for="">Hable con nosotros</label>
+                <form class="Form__form" action="">
+                    <input class="caja__nombre" type="text" name="nombre" placeholder="Nombre">
+                    <textarea class="form__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="boton__form">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>Desarrollado por Adela Bastidas Morales</p>
+                <p>2022</p>
+            </div>
+        </section>
+
+    </main>
+    <script src="./assets/js/login.js" type="module"></script>
+</body>
+</html>

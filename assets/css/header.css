@@ -1,0 +1,152 @@
+*{
+    background: #FFFFFF;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    align-items: center;
+    width: 360px;
+    height: 50px;
+    padding: 16px;
+    
+}
+
+.logo__AluraGeek{
+    display: flex;
+    width: 100px;
+    height: 28px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.alura{
+    position: absolute;
+    right: 77%;
+}
+.geek{
+    position: absolute;
+    right: 67%;
+}
+
+.login{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    width: 133px;
+    height: 40px;
+    color:#2A7AE4;
+
+    box-sizing: border-box;
+    border: 2px solid #2A7AE4;
+}
+
+.lupa{
+    margin-left: 20px;
+}
+
+#busqueda{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header{
+        width: 768px;
+        height: 72px;
+        justify-content: space-between;
+        padding: 16px 32px;
+
+    }
+  
+    #busqueda{
+       display: flex;
+       width: 272px;
+       height: 40px;
+       background: #F5F5F5;
+       border-radius: 20px;
+       border: none;
+    }
+    
+    #busqueda::placeholder{
+        display: flex;
+        color: #A2A2A2;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 40px;
+        
+        background: url(../img/lupa.png) no-repeat;
+        background-position: right center;
+    }
+
+    #busqueda:focus{
+        outline: none;
+    }
+
+    .alura{
+        background: local;
+        right: 85.5%;
+        transform: scale(1.5);
+    }
+    .geek{
+        background: local;
+        right: 78.5%;
+        transform: scale(1.5);
+    }
+
+    .lupa{
+        display: none;
+    }
+
+    .logo{
+        transform: scale(1.5); 
+    }
+
+    .login{
+        width: 153px;
+        height: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+  header{
+    width: auto;
+    gap: 8px;
+    }
+
+    .logo__AluraGeek{
+        width: 176px;
+        height: 50px;
+        margin-top: 2.5rem;
+    }
+
+ .alura{
+        background: local;
+        right: 85.5%;
+        
+    }
+.geek{
+        background: local;
+        right: 81.5%;
+        
+    }
+
+ .lupa{
+        display: none;
+    }
+
+ .logo{
+     position: absolute;
+    right: 89.2%; 
+    
+    }
+
+  #busqueda{
+    width: 393px;
+    height: 40px;
+  }  
+}

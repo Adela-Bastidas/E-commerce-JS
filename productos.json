@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "urlimg": "assets/img/img1.png",
+      "categoria": "xxxxxx",
+      "nombre": "Producto XYZ",
+      "precio": "R$ 60,00",
+      "descripcion": "Producto xxxx",
+      "id": 1
+    },
+    {
+      "urlimg": "assets/img/img2.png",
+      "categoria": "xxxxxx",
+      "nombre": "Producto XYZ",
+      "precio": "R$ 60,00",
+      "descripcion": "Producto xxxx",
+      "id": 2
+    },
+    {
+      "urlimg": "assets/img/img3.png",
+      "categoria": "xxxxxx",
+      "nombre": "Producto XYZ",
+      "precio": "R$ 60,00",
+      "descripcion": "Producto xxxx",
+      "id": 3
+    }
+  ]
+}

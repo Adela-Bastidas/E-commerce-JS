@@ -1,0 +1,173 @@
+.contacto{
+    background: #EAF2FD;
+    width: auto;
+    
+}
+
+.contacto__titulo__logo{
+   position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    width: 3.5rem;
+    left: 7.5rem;
+    height: 1.563rem;
+    gap: .2rem;
+    background: #EAF2FD;
+   
+}
+
+.alura2{
+    transform: scale(1);
+    background: transparent;
+    
+}
+
+.logo__form{
+    transform: scale(1.5);
+    background: #EAF2FD;
+    
+}
+
+.geek2{
+    transform: scale(1);
+    background: #EAF2FD;
+}
+
+.parrafos{
+    text-align: center;
+    background: #EAF2FD;
+}
+
+.parrafo__form{
+    background: local;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+    color: #464646;
+}
+
+.formulario{
+    background: #EAF2FD;
+    margin-top: 1.5rem;
+    
+}
+
+.texto__form{
+    padding: 1rem;
+    background: local;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    
+    color: #464646;
+}
+
+.Form__form{
+    padding: 1rem;
+    background: #EAF2FD;
+    
+}
+
+.caja__nombre{
+    width: 328px;
+    height: 56px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-bottom-width:.2ch;
+    border-bottom-style: outset;
+}
+
+.form__textarea{
+    margin-top: .8rem;
+    width: 328px;
+    height: 82px;
+    border:none;
+    border-bottom-width:.2ch;
+    border-bottom-style: outset;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+    }
+
+.boton__form{
+    margin-top: .5rem;
+    width: 133px;
+    height: 40px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+@media only screen and (min-width: 768px){
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        gap: 30px;
+        
+    }
+    .parrafos{
+        text-align: left;
+        font-size: 35px;
+        right: 90px;
+        position: relative;
+        margin-top: 5rem;
+        width: 480px;
+        
+    }
+
+    .contacto__titulo__logo{
+        margin-top: 1rem;
+        right: 90px;
+    }
+
+    .formulario{
+        margin-top: 3rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .contacto{
+        width: auto;
+        height: auto;
+        
+    }
+
+    .parrafos{
+        left: 200px;
+    }
+
+    .formulario{
+        position: relative;
+        left: 50px;
+        
+    }
+
+    .caja__nombre{
+        width: 490px;
+        height: 56px;
+    }
+
+    .form__textarea{
+        width: 490px;
+        height: 82px;
+    }
+
+    .contacto__titulo__logo{
+        margin-top:71px;
+    }
+
+   .Form__form{
+       display: flex;
+       flex-direction: column;
+   }
+
+}

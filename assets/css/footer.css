@@ -1,0 +1,47 @@
+.footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    
+    width: 360px;
+    height: 60px;
+
+    background: #FFFFFF;
+}
+
+.footer__rodape{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #464646;
+
+    width: 229px;
+    height: 38px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer{
+        width: 768px;
+        height: 102px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .footer{
+        width: auto;
+        height: 102px;
+    }
+
+    .footer__rodape{
+        width: 329px;
+    }
+}

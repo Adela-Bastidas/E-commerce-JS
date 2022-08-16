@@ -1,0 +1,103 @@
+.prom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    padding: 16px;
+    gap: 16px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/hongo.png);
+    background-position: center;
+    
+    width: 360px;
+    height: 192px;
+}
+
+.titulo1{
+    background: local;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.parrafo1{
+    background: local;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.consolas{
+    width: 118px;
+    height: 40px;
+    background: #2A7AE4;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.consolas:hover{
+    cursor: pointer;
+    border: rosybrown;
+    /*transition: cubic-bezier(0.075, 0.82, 0.165, 1);*/
+    
+}
+
+@media only screen and (min-width: 768px){
+    .prom{
+        width: 768px;
+        height: 352px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .titulo1{
+        font-size: 52px;
+        line-height: 61px;
+    }
+
+    .parrafo1{
+        font-size: 22px;
+        line-height: 26px
+    }
+
+    .consolas{
+        width: 125px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .prom{
+        width: auto;
+        
+    }
+
+    .titulo1{
+        position: relative;
+        left: 50px;
+    }
+
+    .parrafo1{
+        position: relative;
+        left: 50px;
+    }
+
+    .consolas{
+        position: relative;
+        left: 50px;;
+    }
+
+
+}

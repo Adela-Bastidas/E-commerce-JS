@@ -1,0 +1,109 @@
+.form__login{
+    background:  #E5E8E8;
+    width: auto;
+    height: 350px;
+    text-align: center;
+    
+}
+
+.inicio__sesion{
+    position: absolute;
+    width: 275px;
+    height: 189px;
+    left: 45px;
+    top: 139px;
+    gap: 19px;
+}
+
+.texto{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 39px;
+    color: #464646;
+}
+
+.email__form{
+    width: 275px;
+    height: 41px;
+    left: calc(50% - 275px/2 + 2.5px);
+    top: 204px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.email__form::placeholder{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: #A2A2A2;
+}
+
+.contrasenia__form{
+    margin-top: 20px;
+    width: 275px;
+    height: 41px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.contrasenia__form::placeholder{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+
+    color: #A2A2A2;
+}
+
+.ingresar{
+    margin-top: 25px;
+    width: 109px;
+    height: 40px;
+    left: 117px;
+    top: 318px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border-style: none;
+}
+
+@media only screen and (min-width: 768px){
+    .inicio__sesion{
+        width: 275px;
+        height: 189px;
+        left: 246px;
+        top: 150px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .inicio__sesion{
+        width: 423px;
+        height: 291px;
+        left: 508px;
+        top: 150px;
+    }
+
+    .ingresar{
+        width: 275px;
+        height: 41px;
+        left: 508px;
+        top: 335px;
+    }
+
+}

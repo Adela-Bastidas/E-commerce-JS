@@ -1,0 +1,119 @@
+.header{
+   background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 360px;
+    height: 50px;
+    padding: 16px;
+    
+}
+
+.logo__AluraGeek{
+    display: flex;
+    width: 100px;
+    height: 28px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.logo__AluraGeek:hover{
+    cursor: pointer;
+}
+
+.alura{
+    position: absolute;
+    right: 71%;
+    transform: scale(1.5);
+}
+.geek{
+    position: absolute;
+    right: 56.9%;
+    transform: scale(1.5);
+}
+
+.logo{
+    position: absolute;
+    right: 85%;
+    transform: scale(1.5);
+}
+
+.lupa{
+    
+    margin-left: 220px;
+    transform: scale(1.5);
+}
+
+#busqueda_login{
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px){
+    .lupa{
+        display: none;
+    }
+
+    .header{
+        width: 768px;
+        height: 72px;
+        gap: 110px;
+        padding: 16px 32px;
+    }
+
+    #busqueda_login{
+        display: flex;
+        width: 272px;
+        height: 40px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        border: none;
+     }
+     
+     #busqueda_login::placeholder{
+         display: flex;
+         color: #A2A2A2;
+         font-family: 'Raleway';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 40px;
+         
+         background: url(../../img/lupa.png) no-repeat;
+         background-position: right center;
+     }
+
+     .alura{
+        background: local;
+        right: 78.5%;
+        transform: scale(1.5);
+        }
+    .geek{
+            background: local;
+            right: 71.5%;
+            transform: scale(1.5);
+    }
+
+     .logo{
+            transform: scale(1.5); 
+     }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .header{
+        gap: 310px;
+    }
+
+    .alura{
+        background: local;
+        right: 81.5%;
+        transform: scale(1.5);
+        }
+
+    .geek{
+            background: local;
+            right: 77.5%;
+            transform: scale(1.5);
+    }
+}
